@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .App-logo {
@@ -30,4 +32,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+.contactBox {
+  border: 1 solid groove;
+  background-color: goldenrod;
+  width: 400px;
+  height: 200px;
+  margin: 9px;
+  border-radius: 4px;
+  padding: 15px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contactList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-input {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contact-input input {
+  margin: 15px;
+  padding: 9px;
+}
+.contact-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-input-container a {
+  padding: 20px;
+  background-color: #61dafb;
+  margin: 10px;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+button {
+  background-color: aqua;
+  padding: 12px;
+  margin: 5px;
+  width: 70px;
+  border-radius: 5px;
+  border: none;
 }
